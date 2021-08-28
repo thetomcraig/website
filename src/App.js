@@ -11,30 +11,42 @@ import ascii_pic from './ascii_pic.png';
 import './App.css';
 
 const App = () => (
-  <Container className="p-3" xs="10" md="6">
-
+  // Header and Picture
+  <Container >
     <Row className="justify-content-md-center">
       <h4
         className="header"
-        style={{textAlign: "center"}}
+        style={{textAlign: "center", paddingBottom:30}}
       >
         TOMCRAIG.ORG
       </h4>
       <img 
         src={ascii_pic}
-        style={{maxWidth: "24rem"}}
+        style={{maxWidth: "24rem", paddingBottom:30}}
       >
       </img>
     </Row>
 
-    <Row >
-      <p>
-        __ADD SPACE HERE__
+    <Row>
+      <Col/>
 
-        I'm a software engineer living and working in the San Francisco Bay area.  Currently I'm working at Pandora Media, building front end tools for developers.  I've worked on advertising at Pandora and done research at NASA's Jet Propulsion Laboratory for the Juno Mission.  I make a podcast about culture called Total Immersion and I've recently setup an AI botnet.  I'm passionate about technology and I'm always learning something new.
+      <Col xs={12} sm={12} md={10} lg={8} xl={6}>
+        <p>
+          My name is Tom Craig, and I build things.
+        </p>
+        <p>
+          I have done front and back end software engineering for Pandora Media, Welkin Health, and Ceres Imaging.
+        </p>
+        <p>
+          I have also been a research fellow at NASA's Jet Propulsion Laboratory for the Juno Mission.
+        </p>
+        <p>
+          I also spend time on my podcast about culture, Total Immersion.
+        </p>
+      </Col>
 
-I'm currently learning how to solve a Rubik's Cube, and the lyrics to this song.
-      </p>
+      <Col/>
+
     </Row>
   </Container>
 );
