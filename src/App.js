@@ -1,11 +1,9 @@
-
-
-import React, { useState } from 'react';
+import React from 'react';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+import {Helmet} from "react-helmet";
 import ascii_pic from './ascii_pic.png';
 
 import './App.css';
@@ -13,6 +11,12 @@ import './App.css';
 const App = () => (
   // Header and Picture
   <Container >
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>TomCraig.org</title>
+      <link rel="canonical" href="http://tomcraig.org" />
+    </Helmet>
+
     <Row className="justify-content-md-center">
       <h4
         className="header"
