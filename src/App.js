@@ -20,7 +20,7 @@ const App = () => (
     <Row className="justify-content-md-center">
       <h4
         className="header"
-        style={{textAlign: "center", paddingBottom:30}}
+        style={{textAlign: "center", paddingBottom:30, paddingTop:20}}
       >
         TOMCRAIG.ORG
       </h4>
@@ -39,13 +39,21 @@ const App = () => (
           My name is Tom Craig, and I build things.
         </p>
         <p>
+            I do freelance web development.<br/>
+            (You can see my profile <a href="https://www.upwork.com/freelancers/~017287fbe859ac7cbc?viewMode=1">here!</a>)
+        </p>
+        <p>
+            I make software in my free time, too.
+            (<a href="https://github.com/thetomcraig/chit">Here's one project</a>)
+        </p>
+        <p>
           I have done front and back end software engineering for Pandora Media, Welkin Health, and Ceres Imaging.
         </p>
         <p>
           I have also been a research fellow at NASA's Jet Propulsion Laboratory for the Juno Mission.
         </p>
         <p>
-          I also spend time on my podcast about culture, Total Immersion.
+            I also spend time on my podcast about culture, <a href="https://podcasts.apple.com/us/podcast/total-immersion/id1268913004?mt=2">Total Immersion</a>.
         </p>
       </Col>
 
