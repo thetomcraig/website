@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {Helmet} from "react-helmet";
-import ascii_pic from './ascii_pic.png';
+import ascii_pic from './assets/ascii_pic.png';
 
 import './App.css';
 
@@ -26,6 +26,7 @@ const App = () => (
       </h4>
       <img 
         src={ascii_pic}
+        alt="Tom Craig ASCII Art"
         style={{maxWidth: "24rem", paddingBottom:30}}
       >
       </img>
@@ -47,13 +48,10 @@ const App = () => (
             (<a href="https://github.com/thetomcraig/chit">Here's one project</a>)
         </p>
         <p>
-          I have done front and back end software engineering for Pandora Media, Welkin Health, and Ceres Imaging.
+          I have done front and back end software engineering for Pandora Media, Welkin Health Ceres Imaging, and Coread.
         </p>
         <p>
           I have also been a research fellow at NASA's Jet Propulsion Laboratory for the Juno Mission.
-        </p>
-        <p>
-            I also spend time on my podcast about culture, <a href="https://podcasts.apple.com/us/podcast/total-immersion/id1268913004?mt=2">Total Immersion</a>.
         </p>
       </Col>
 
