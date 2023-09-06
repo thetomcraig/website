@@ -1,0 +1,21 @@
+.application-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .header-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .header-text.MuiTypography-h4 {
+    color: black;
+  }
+  
+  .center-header-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
