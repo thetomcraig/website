@@ -1,0 +1,11 @@
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tom-pic {
+    /* max-width: "24rem";
+    padding-bottom: 30; */
+    width: 500px;
+}

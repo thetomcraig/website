@@ -2,6 +2,8 @@ import "./App.css"
 import { BrowserRouter } from "react-router-dom"
 import { Helmet, HelmetProvider } from "react-helmet-async"
 import HeaderComponent from "./components/header"
+import ContentComponent from "./components/content"
+import ImageComponent from "./components/image"
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           </Helmet>
           <div className="container">
             <HeaderComponent />
+            <ImageComponent />
+            <ContentComponent />
           </div>
         </div>
       </HelmetProvider>
