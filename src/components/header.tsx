@@ -1,5 +1,5 @@
-import { Typography } from "@mui/material";
-import "./header.css";
+import { Typography } from "@mui/material"
+import "./header.css"
 
 function HeaderComponent() {
   return (
@@ -10,7 +10,7 @@ function HeaderComponent() {
         </Typography>
       </div>
     </div>
-  );
+  )
 }
 
-export default HeaderComponent;
+export default HeaderComponent

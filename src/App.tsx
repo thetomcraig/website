@@ -1,7 +1,7 @@
 import "./App.css"
 import { BrowserRouter } from "react-router-dom"
 import { Helmet, HelmetProvider } from "react-helmet-async"
-import HeaderComponent from "./components/header";
+import HeaderComponent from "./components/header"
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         </div>
       </HelmetProvider>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App
